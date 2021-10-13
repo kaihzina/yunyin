@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logo.ico" />
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/head.css" />
+    <link rel="stylesheet" href="./pic/pic.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_1796518_8kiu6nyf9j5.css">
+    <title>余音</title>
+</head>
+
+<body>
+    <!--头部栏-->
+    <div class="head">
+        <div class="head__logo">
+            <a href="#">LingeringVoice余音</a>
+        </div>
+        <div class="head__navList">
+            <nav class="head__nav">
+                <ul>
+                    <li><a href="./musicList/musicList.html">歌单</a></li>
+                    <li><a href="./myMusic/myMusic.html" class="my">我的</a></li>
+                </ul>
+            </nav>
+            <nav class="head__login">
+                <ul>
+                    <li>
+                        <input type="text" name="" id="" placeholder="搜索" class="searchText" />
+                        <i class="iconfont icon-fangdajing searchBtn"></i>
+                    </li>
+                    <li class="notLogin">
+                        <a href="./login/login.html"><button class="loginBtn">登录</button></a>
+                    </li>
+                    <li class="userInfo">
+                        <img src="./img/img_4.jpg" alt="" class="avatar" />
+                        <ul class="info">
+                            <li>个人设置</li>
+                            <li class="signOut">退出登录</li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <!--横滚动-->
+    <div class="body">
+        <div class="picWrap">
+            <button class="pic__prev">
+                <i class="iconfont icon-zuoyoujiantou-copy-copy-copy-copy"></i>
+            </button>
+            <div class="pic">
+                <ul class="pic__inner">
+                    <li>
+                        <a href="./player/player.html?musicId=1448256976"><img src="http://p1.music.126.net/rOPEBWp8WV9PWCDngNWZjQ==/109951164994651536.jpg?imageView&quality=89" alt="" /></a>
+                    </li>
+                    <li>
+                        <a href="./player/player.html?musicId=1448006342"><img src="http://p1.music.126.net/hHDmsWRzjKLGqFyBhzk4OA==/109951164994712269.jpg?imageView&quality=89" alt="" /></a>
+                    </li>
+                    <li>
+                        <a href="./player/player.html?musicId=1448750854"><img src="http://p1.music.126.net/DkyE7a9vrbOweu33hwA7AQ==/109951164994677173.jpg?imageView&quality=89" alt="" /></a>
+                    </li>
+                </ul>
+                <div class="pic__dots">
+                    <span class="active"></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <button class="pic__next">
+                <i class="iconfont icon-zuoyoujiantou"></i>
+            </button>
+        </div>
+        <!--歌单推荐-->
+        <div class="recom">
+            <div class="recom__title">
+                <h2>歌单推荐</h2>
+                <a href="./musicList/musicList.html">
+                    <span class="recom__more">更多>></span></a>
+            </div>
+            <hr />
+            <div class="recom__listWrap">
+                <ul class="recom__list"></ul>
+            </div>
+
+            <div class="recom__dots">
+                <span class="active"></span>
+                <span></span>
+            </div>
+        </div>
+
+        <!---->
+        <div class="article_hotsong">
+            <div class="article">
+                <h2>Music Stickers</h2>
+                <div class="img"></div>
+                <p class="title">再盛大的相遇，都是一场别离。</p>
+                <hr />
+                <p class="info">
+                    音乐贴，从网友的美文推荐中精选而出，是余音给每一篇好作品的支持和鼓励。每周一更新！
+                </p>
+            </div>
+            <div class="hotsong">
+                <h2>今日精选</h2>
+                <hr />
+                <ul class="todayMusic__list"></ul>
+            </div>
+        </div>
+        <!--尾页图-->
+        <div class="footer">
+
+        </div>
+
+
+        <script src="./js/util.js"></script>
+        <script src="./js/commen.js"></script>
+        <script src="./js/index.js"></script>
+        <script src="./pic/pic.js"></script>
+        <!--滚动JS-->
+
+</body>
+
+</html>
