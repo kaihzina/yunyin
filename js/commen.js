@@ -20,7 +20,7 @@ searchBtn.onclick = function() {
         if (!searchInp.value) {
             return;
         }
-        // 服务器
+        // 服务器yunyin
         window.location.replace(window.location.protocol + `/yunyin/search/search.html?searchData=${searchInp.value}`)
     }
     // 回车搜索
