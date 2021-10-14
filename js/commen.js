@@ -21,8 +21,8 @@ searchBtn.onclick = function() {
             return;
         }
         // 服务器yunyin
-        window.location.replace(window.location.protocol + `/yunyin/search/search.html?searchData=${searchInp.value}`)
-            //window.location.replace(https://kaihzina.github.io/yunyin/search/search.html?searchData=${searchInp.value}`)
+        //window.location.replace(window.location.protocol + `/yunyin/search/search.html?searchData=${searchInp.value}`)
+        //window.location.replace(https://kaihzina.github.io/yunyin/search/search.html?searchData=${searchInp.value}`)
         window.location.replace(window.location.protocol + `kaihzina.github.io/yunyin/search/search.html?searchData=${searchInp.value}`)
     }
     // 回车搜索
