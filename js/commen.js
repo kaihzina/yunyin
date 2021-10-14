@@ -21,7 +21,7 @@ searchBtn.onclick = function() {
             return;
         }
         // 服务器
-        window.location.replace(window.location.protocol + `/search/search.html?searchData=${searchInp.value}`)
+        window.location.replace(window.location.protocol + `/yunyin/search/search.html?searchData=${searchInp.value}`)
     }
     // 回车搜索
 searchInp.onfocus = function() {
